@@ -1,4 +1,5 @@
-# AI/ML Use Case Generator and Resource Collector
+# Market Research & Use Case Generation Agent
+
 
 ## Overview
 An advanced multi-agent system that generates AI/ML use cases and collects implementation resources using CrewAI and LangChain. The system analyzes companies/industries, generates relevant use cases, and provides detailed implementation resources and recommendations.
