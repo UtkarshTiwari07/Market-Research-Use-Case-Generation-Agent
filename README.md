@@ -62,7 +62,10 @@ An advanced multi-agent system that generates AI/ML use cases and collects imple
    - Proposed AI/ML use cases.
    - Example resources collected.
    - Output formats (JSON and CSV).
- 
+     
+ ### 6. Connect
+ - Email - {utkarshtiwar89@gmail.com}
+ - Linkedin - https://www.linkedin.com/in/utkarsh-tiwari-174212216/
 
 
  
