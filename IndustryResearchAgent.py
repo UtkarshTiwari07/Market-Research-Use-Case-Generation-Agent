@@ -1,4 +1,4 @@
-IndustryResearchAgent
+#IndustryResearchAgent
 class IndustryResearchAgent(Agent):
     def __init__(self):
          
