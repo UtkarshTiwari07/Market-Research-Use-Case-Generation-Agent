@@ -13,6 +13,57 @@ An advanced multi-agent system that generates AI/ML use cases and collects imple
 
 ## 🏗️ Architecture
 
+
+
+
+                                +------------------------+
+                                |                        |
+                                |      Orchestrator      |
+                                |   (Manages Workflow)   |
+                                |                        |
+                                +------------------------+
+                                        ^   ^   ^
+                                        |   |   |
+                                        |   |   |
+                +------------------------+   |   +------------------------+
+                |                           |                            |
+                |                           |                            |
+    +------------------------+  +------------------------+  +------------------------+
+    |                        |  |                        |  |                        |
+    | Industry Research      |  |    Market Analysis     |  |  Resource Collection   |
+    |       Agent           |  |         Agent          |  |         Agent          |
+    |                        |  |                        |  |                        |
+    +------------------------+  +------------------------+  +------------------------+
+                |                           |                            |
+                |                           |                            |
+        +---------------+            +---------------+            +---------------+
+        |   Company &   |            |   Use Case    |            |   GitHub     |
+        |   Industry    |            |   Generation  |            |   Repos      |
+        |   Analysis    |            |   & Analysis  |            +---------------+
+        +---------------+            +---------------+            |   Datasets    |
+                |                           |                    +---------------+
+                |                           |                    |   Tutorials   |
+        +---------------+            +---------------+            +---------------+
+        |   Market      |            |Implementation|                    |
+        |   Research    |            |   Planning   |                    |
+        +---------------+            +---------------+                    |
+                |                           |                            |
+                v                           v                            v
+        +---------------+            +---------------+            +---------------+
+        |   Industry    |            |   Use Cases   |            |   Resource    |
+        |   Report      |            |   & Roadmap   |            |   Collection  |
+        +---------------+            +---------------+            +---------------+
+                \                          |                            /
+                 \                         |                           /
+                  \                        v                          /
+                   \              +------------------+                /
+                    \            |                  |               /
+                     +---------->|  Final Analysis  |<-------------+
+                                |     & Report      |
+                                |                   |
+                                +------------------+
+
+
 ## 🛠️ Technical Stack
 - **Framework**: CrewAI for multi-agent orchestration
 - **LLM Integration**: Gemini-2.0-flash-exp via Gemini api
